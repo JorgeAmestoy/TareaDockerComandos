@@ -11,8 +11,13 @@ DOCKER IMAGE LS: lista las imágenes del contenedor
 DOCKER RUN -IT UBUNTU:LATEST BASH: crea un contenedor basado en la última versión de Ubuntu
 
 DOCKER PS -A: lista los contenedor que hay en el sistema
-``````
+```
+Al no especificar el nombre, Docker asigna un nombre aleatorio
 
+### 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
+```
+DOCKER RUN -IT --NAME dam_ubu1 UBUNTU:LATEST BASH
+```
 
 
 
