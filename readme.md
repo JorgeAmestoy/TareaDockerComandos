@@ -16,8 +16,9 @@ Al no especificar el nombre, Docker asigna un nombre aleatorio
 
 ### 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
 ```
-DOCKER RUN -IT --NAME dam_ubu1 UBUNTU:LATEST BASH
+DOCKER RUN -IT --NAME dam_ubu1 UBUNTU:LATEST BASH: crea el contenedor con el nombre especificado e inicia sesión en el bash para poder interactuar
 ```
 
+### 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
 
 
