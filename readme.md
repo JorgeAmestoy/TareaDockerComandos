@@ -41,3 +41,12 @@ La IP es: 172.17.0.2. Para hacer ping con Google:
 $ DOCKER RUN -IT --NAME DAM_UBU2 UBUNTU:LATEST BASH: crea el contenedor con el nombre especificado e inicia sesión en el bash para poder interactuar
 ```
 No se puede hacer ping entre los contenedores. Para ello habría que volver a realizar el proceso anterior, actualizar y descargar las tools.
+
+### 6. Sal del terminal, ¿que ocurrió con el contenedor?
+```
+# EXIT: sales del contenedor
+
+$ DOCKER PS -A: para comprobar su estado
+
+```
+Este se cierra.
