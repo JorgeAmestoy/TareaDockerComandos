@@ -50,3 +50,12 @@ $ DOCKER PS -A: para comprobar su estado
 
 ```
 Este se cierra.
+### 7. ¿Cuanta memoria en el disco duro ocupaste?
+```
+DOCKER SYSTEM DF: identifica la cantidad de espacio en disco con Docker
+
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          4         4         348.9MB   0B (0%)
+Containers      28        1         366.1MB   319.9MB (87%)
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
