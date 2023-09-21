@@ -59,3 +59,29 @@ Images          4         4         348.9MB   0B (0%)
 Containers      28        1         366.1MB   319.9MB (87%)
 Local Volumes   0         0         0B        0B
 Build Cache     0         0         0B        0B
+```
+
+### 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
+Si no están iniciados los contenedores, primero debemos entrar en ellos, ejecutarlos y salir:
+```
+DOCKER START DAM_UBU1: inicia el contenedor
+
+DOCKER EXEC -IT DAM_UBU1 BASH: ejecuta el shell del contenedor dam-ubu1
+
+EXIT: cierra la sesión del shell del contenedor
+```
+
+Tras esto, buscamos la información requerida:
+```
+DOCKER STATS: muestra información sobre el uso del CPU, la memoria y otros recursos
+```
+
+Saliendo como resultado:
+
+|     NAME     | MEM USAGE/LIMIT    |
+|--------------|--------------      |
+|   dam_ubu1   | 892KiB / 15.39GiB  |
+|   dam_ubu2   | 5.152MiB / 15.39GiB| 
+
+
