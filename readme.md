@@ -1,5 +1,8 @@
 # TAREA COMANDOS BÁSICOS DOCKER
+## Utilizando la imagen de Ubuntu, usa el Visual Studio COde y Docker y realiza la tarea poniendo los comandos y una breve descripción del proceso:
+
 ### 1. Descarga la imagen ubuntu y comprueba que está en tu equipo
+
 ```
 $ DOCKER RUN UBUNTU: ejecuta un contenedor basado en la imagen de Ubuntu
 
@@ -62,8 +65,9 @@ Build Cache     0         0         0B        0B
 ```
 
 ### 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+> [!IMPORTANT] 
+> Si no están iniciados los contenedores, primero debemos entrar en ellos, ejecutarlos y salir:
 
-Si no están iniciados los contenedores, primero debemos entrar en ellos, ejecutarlos y salir:
 ```
 DOCKER START DAM_UBU1: inicia el contenedor
 
